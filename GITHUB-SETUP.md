@@ -20,10 +20,10 @@ https://github.com/new
 初始化: 不勾选任何选项（我们已有代码）
 ```
 
-### 3. 复制仓库地址
+### 3. 你的仓库地址
 ```bash
-# 创建后会显示仓库地址，类似：
-https://github.com/你的用户名/modern-blog-system.git
+# 你的仓库地址：
+https://github.com/huang-jianhua/modern-blog-system.git
 ```
 
 ---
@@ -130,7 +130,7 @@ Token名称: MCP-Integration-Token
 ### 1. 配置Git远程仓库
 ```bash
 # 在你的项目目录执行：
-git remote add origin https://github.com/你的用户名/modern-blog-system.git
+git remote add origin https://github.com/huang-jianhua/modern-blog-system.git
 git branch -M main
 ```
 
@@ -143,7 +143,7 @@ git push -u origin main
 ### 3. 验证推送成功
 ```bash
 # 访问你的GitHub仓库页面，确认代码已上传
-https://github.com/你的用户名/modern-blog-system
+https://github.com/huang-jianhua/modern-blog-system
 ```
 
 ---
