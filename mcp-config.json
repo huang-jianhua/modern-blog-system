@@ -16,7 +16,7 @@
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": "your_github_token_here"
       },
-      "description": "GitHub 集成服务器"
+      "description": "GitHub 集成服务器 - 需要配置真实的GitHub Personal Access Token"
     },
     "postgres": {
       "command": "uvx",
@@ -61,6 +61,15 @@
       "command": "npx",
       "args": ["@modelcontextprotocol/server-memory"],
       "description": "持久化记忆服务器"
+    },
+    "notion": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-notion"],
+      "env": {
+        "NOTION_API_KEY": "your_notion_api_key_here",
+        "NOTION_DATABASE_ID": "your_notion_database_id_here"
+      },
+      "description": "Notion 笔记和文档管理服务器 - 用于内容创作和项目管理"
     }
   },
   "globalShortcut": "Ctrl+Shift+M",

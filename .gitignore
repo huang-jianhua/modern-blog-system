@@ -135,3 +135,4 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/ 
+mcp-config.json
